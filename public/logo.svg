@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
+  <circle cx="60" cy="60" r="58" fill="#7c2d0e" stroke="#f0820a" stroke-width="3"/>
+  <circle cx="60" cy="60" r="48" fill="none" stroke="#f0820a" stroke-width="1.5" opacity="0.5"/>
+  <g fill="#f0820a" opacity="0.85">
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(0 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(45 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(90 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(135 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(180 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(225 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(270 60 60)"/>
+    <ellipse cx="60" cy="30" rx="7" ry="14" transform="rotate(315 60 60)"/>
+  </g>
+  <circle cx="60" cy="60" r="16" fill="#f0820a"/>
+  <text x="60" y="65" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#fff">SA</text>
+</svg>

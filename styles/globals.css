@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=DM+Sans:wght@300;400;500;600&family=Noto+Serif+Devanagari:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Cormorant Garamond';
+  --font-body: 'DM Sans';
+  --font-devanagari: 'Noto Serif Devanagari';
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body), system-ui, sans-serif;
+    /* Warm dark amber-brown — replaces bright white */
+    background-color: #1c1008;
+    color: #f0e6d0;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display), Georgia, serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 bg-saffron-500 text-white font-body font-medium px-6 py-3 rounded-full
+           hover:bg-saffron-400 active:scale-95 transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 border-2 border-white text-white font-body font-medium px-6 py-3 rounded-full
+           hover:bg-white hover:text-saffron-700 active:scale-95 transition-all duration-200;
+  }
+
+  .btn-ghost {
+    @apply inline-flex items-center gap-2 border-2 border-saffron-500 text-saffron-400 font-body font-medium px-6 py-3 rounded-full
+           hover:bg-saffron-500 hover:text-white active:scale-95 transition-all duration-200;
+  }
+
+  .section-heading {
+    @apply font-display text-4xl md:text-5xl text-saffron-300 leading-tight;
+  }
+
+  .section-subheading {
+    @apply font-body text-amber-200/70 text-lg mt-3;
+  }
+
+  .divider-ornament {
+    @apply flex items-center gap-3 justify-center my-4;
+  }
+
+  .divider-ornament::before,
+  .divider-ornament::after {
+    content: '';
+    @apply flex-1 border-t border-saffron-800;
+  }
+
+  .card-hover {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl;
+  }
+
+  .nav-link {
+    @apply font-body font-medium text-amber-200 hover:text-saffron-400 transition-colors duration-200 text-sm tracking-wide uppercase;
+  }
+}
+
+/* Smooth scroll offset for fixed navbar */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* WhatsApp button pulse */
+@keyframes whatsapp-pulse {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5); }
+  50%       { box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+}
+.whatsapp-btn {
+  animation: whatsapp-pulse 2.5s ease-in-out infinite;
+}
+
+/* Gallery image hover zoom */
+.gallery-img {
+  @apply overflow-hidden rounded-2xl;
+}
+.gallery-img img {
+  @apply transition-transform duration-500 hover:scale-110;
+}
+
+/* Dark warm card style */
+.card-ornate {
+  border: 1px solid rgba(200, 120, 30, 0.2);
+  background: linear-gradient(135deg, #261507 0%, #2e1a09 100%);
+}
