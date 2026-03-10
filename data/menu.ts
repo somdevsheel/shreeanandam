@@ -31,8 +31,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 70,
         veg: true,
         popular: true,
-        // Steamed dumplings / dim sum — closest accurate match
-        image: "https://images.unsplash.com/photo-1496116218417-1a781b1c416c?w=600&q=80",
+        image: "/images/menu/steamed momos.jpg",
       },
       {
         id: "mo2",
@@ -42,8 +41,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 90,
         veg: true,
         popular: true,
-        // Fried dumplings / gyoza
-        image: "https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80",
+        image: "/images/menu/fried momos.jpg",
       },
       {
         id: "mo3",
@@ -53,8 +51,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 100,
         veg: true,
         popular: true,
-        // Spicy red sauce dumplings
-        image: "https://images.unsplash.com/photo-1607330289024-1535c6b4e1c1?w=600&q=80",
+        image: "/images/menu/chilli momos.jpg",
       },
       {
         id: "mo4",
@@ -63,8 +60,7 @@ export const menuData: MenuCategory[] = [
         priceHalf: 60,
         priceFull: 100,
         veg: true,
-        // Tandoor / grilled food with char marks
-        image: "https://images.unsplash.com/photo-1599487488170-d11ec9c172f0?w=600&q=80",
+        image: "/images/menu/Tandoori Momos.jpg",
       },
       {
         id: "mo5",
@@ -73,8 +69,7 @@ export const menuData: MenuCategory[] = [
         priceHalf: 70,
         priceFull: 120,
         veg: true,
-        // Crispy battered snack
-        image: "https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&q=80",
+        image: "/images/menu/kurkure momos.jpg",
       },
     ],
   },
@@ -89,8 +84,7 @@ export const menuData: MenuCategory[] = [
         description: "Soft bun loaded with crispy veg patty, fresh veggies, and creamy sauce.",
         price: 40,
         veg: true,
-        // Simple veg burger
-        image: "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&q=80",
+        image: "/images/menu/Veg Cream Burger.jpg",
       },
       {
         id: "bu2",
@@ -99,8 +93,7 @@ export const menuData: MenuCategory[] = [
         price: 50,
         veg: true,
         popular: true,
-        // Burger with thick patty
-        image: "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&q=80",
+        image: "/images/menu/paneer burger.jpg",
       },
       {
         id: "bu3",
@@ -108,8 +101,7 @@ export const menuData: MenuCategory[] = [
         description: "Loaded special version with double paneer, extra toppings, and house special sauce.",
         price: 60,
         veg: true,
-        // Loaded stacked burger
-        image: "https://images.unsplash.com/photo-1594212699903-ec8a3eca50f5?w=600&q=80",
+        image: "/images/menu/paneer burger.jpg",
       },
       {
         id: "bu4",
@@ -118,8 +110,7 @@ export const menuData: MenuCategory[] = [
         price: 70,
         veg: true,
         popular: true,
-        // Cheese burger with melted cheese visible
-        image: "https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=600&q=80",
+        image: "/images/menu/Cheese Burger.jpg",
       },
       {
         id: "bu5",
@@ -128,8 +119,7 @@ export const menuData: MenuCategory[] = [
         priceHalf: 40,
         priceFull: 70,
         veg: true,
-        // Crispy spring rolls on a plate
-        image: "https://images.unsplash.com/photo-1544025162-d76694265947?w=600&q=80",
+        image: "/images/menu/Spring Roll.jpg",
       },
     ],
   },
@@ -146,8 +136,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 70,
         veg: true,
         popular: true,
-        // Stir fried noodles with veg
-        image: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600&q=80",
+        image: "/images/menu/Veg Chowmein.jpg",
       },
       {
         id: "ch2",
@@ -156,8 +145,7 @@ export const menuData: MenuCategory[] = [
         priceHalf: 40,
         priceFull: 70,
         veg: true,
-        // Fried rice in wok / bowl
-        image: "https://images.unsplash.com/photo-1603133872878-684f208fb84b?w=600&q=80",
+        image: "/images/menu/Fried Rice.jpg",
       },
       {
         id: "ch3",
@@ -167,8 +155,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 90,
         veg: true,
         popular: true,
-        // Noodles with paneer / white cheese cubes
-        image: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600&q=80",
+        image: "/images/menu/Paneer Chowmein.jpg",
       },
       {
         id: "ch4",
@@ -177,8 +164,7 @@ export const menuData: MenuCategory[] = [
         priceHalf: 70,
         priceFull: 120,
         veg: true,
-        // Hakka noodles dark soy style
-        image: "https://images.unsplash.com/photo-1617093727343-374698b1b08d?w=600&q=80",
+        image: "/images/menu/Hakka Noodles.jpg",
       },
     ],
   },
@@ -194,8 +180,7 @@ export const menuData: MenuCategory[] = [
         price: 15,
         veg: true,
         popular: true,
-        // Deep fried battered snack / pakora
-        image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&q=80",
+        image: "/images/menu/Bread Pakora.jpg",
       },
       {
         id: "qb2",
@@ -204,8 +189,7 @@ export const menuData: MenuCategory[] = [
         price: 60,
         veg: true,
         popular: true,
-        // Chole bhature — chickpea curry with puffed bread
-        image: "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&q=80",
+        image: "/images/menu/Chhole Bhature.jpg",
       },
       {
         id: "qb3",
@@ -213,8 +197,7 @@ export const menuData: MenuCategory[] = [
         description: "Hearty chickpea curry paired with crispy golden poori bread — a classic combo.",
         price: 60,
         veg: true,
-        // Poori bread puffed up
-        image: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=600&q=80",
+        image: "/images/menu/Chole Puri.jpg",
       },
     ],
   },
@@ -231,8 +214,7 @@ export const menuData: MenuCategory[] = [
         priceFull: 15,
         veg: true,
         popular: true,
-        // Masala chai in glass / kulhad
-        image: "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=600&q=80",
+        image: "/images/menu/Chai.jpg",
       },
       {
         id: "bv2",
@@ -240,8 +222,7 @@ export const menuData: MenuCategory[] = [
         description: "Rich, aromatic hot coffee brewed fresh to order.",
         price: 30,
         veg: true,
-        // Hot coffee cup
-        image: "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600&q=80",
+        image: "/images/menu/Coffee.jpg",
       },
     ],
   },
