@@ -1,3 +1,69 @@
+// import { NextRequest, NextResponse } from "next/server";
+// import clientPromise from "@/lib/mongodb";
+
+// const DB   = "anandam";
+// const COLL = "bookings";
+
+// function isAdmin(req: NextRequest) {
+//   const username = req.headers.get("x-admin-username");
+//   const password = req.headers.get("x-admin-password");
+//   return (
+//     username === process.env.ADMIN_USERNAME &&
+//     password === process.env.ADMIN_PASSWORD
+//   );
+// }
+
+// // POST /api/bookings — create booking (public)
+// export async function POST(req: NextRequest) {
+//   try {
+//     const body = await req.json();
+//     const { name, phone, date, time, guests, request } = body;
+
+//     if (!name || !phone || !date || !time || !guests) {
+//       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
+//     }
+
+//     // No _id field — MongoDB assigns ObjectId automatically
+//     const booking = {
+//       name:      name.trim(),
+//       phone:     phone.trim(),
+//       date,
+//       time,
+//       guests,
+//       request:   request?.trim() || "",
+//       status:    "pending" as const,
+//       createdAt: new Date().toISOString(),
+//     };
+
+//     const client = await clientPromise;
+//     const result = await client.db(DB).collection(COLL).insertOne(booking);
+
+//     return NextResponse.json({ success: true, id: result.insertedId }, { status: 201 });
+//   } catch (err) {
+//     console.error(err);
+//     return NextResponse.json({ error: "Server error" }, { status: 500 });
+//   }
+// }
+
+// // GET /api/bookings — list all (admin only)
+// export async function GET(req: NextRequest) {
+//   if (!isAdmin(req)) {
+//     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+//   }
+//   try {
+//     const client   = await clientPromise;
+//     const bookings = await client.db(DB).collection(COLL)
+//       .find({}).sort({ createdAt: -1 }).toArray();
+//     return NextResponse.json({ bookings });
+//   } catch (err) {
+//     console.error(err);
+//     return NextResponse.json({ error: "Server error" }, { status: 500 });
+//   }
+// }
+
+
+
+
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/mongodb";
 
@@ -16,6 +82,15 @@ function isAdmin(req: NextRequest) {
 // POST /api/bookings — create booking (public)
 export async function POST(req: NextRequest) {
   try {
+    // Check env var first
+    if (!process.env.MONGODB_URI) {
+      console.error("MONGODB_URI is not set");
+      return NextResponse.json(
+        { error: "Database not configured. Please contact the restaurant directly." },
+        { status: 500 }
+      );
+    }
+
     const body = await req.json();
     const { name, phone, date, time, guests, request } = body;
 
@@ -23,7 +98,6 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    // No _id field — MongoDB assigns ObjectId automatically
     const booking = {
       name:      name.trim(),
       phone:     phone.trim(),
@@ -39,9 +113,13 @@ export async function POST(req: NextRequest) {
     const result = await client.db(DB).collection(COLL).insertOne(booking);
 
     return NextResponse.json({ success: true, id: result.insertedId }, { status: 201 });
-  } catch (err) {
-    console.error(err);
-    return NextResponse.json({ error: "Server error" }, { status: 500 });
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error("Booking POST error:", message);
+    return NextResponse.json(
+      { error: "Failed to save booking. Please try again or call us directly." },
+      { status: 500 }
+    );
   }
 }
 
@@ -51,12 +129,16 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
   try {
+    if (!process.env.MONGODB_URI) {
+      return NextResponse.json({ error: "Database not configured" }, { status: 500 });
+    }
     const client   = await clientPromise;
     const bookings = await client.db(DB).collection(COLL)
       .find({}).sort({ createdAt: -1 }).toArray();
     return NextResponse.json({ bookings });
-  } catch (err) {
-    console.error(err);
+  } catch (err: unknown) {
+    const message = err instanceof Error ? err.message : "Unknown error";
+    console.error("Booking GET error:", message);
     return NextResponse.json({ error: "Server error" }, { status: 500 });
   }
 }
