@@ -33,17 +33,17 @@
 export const restaurantInfo = {
   name: "Anandam Sweets & Restaurant",
   nameDevanagari: "आनन्दम् स्वीट्स & रेस्टोरेंट",
-  tagline: "Authentic Taste of Tradition",
-  taglineHindi: "परम्परा का असली स्वाद",
+  tagline: "Fresh Food, Pure Joy",
+  taglineHindi: "ताज़ा खाना, शुद्ध आनंद",
   description:
-    "Serving generations with love, warmth, and the finest traditional Indian cuisine. Every dish at Anandam carries the soul of our ancestors' recipes.",
+    "A brand new pure vegetarian restaurant in Bilaspur, UP — serving fresh momos, burgers, Chinese, and traditional Indian bites with love and quality.",
   phone: "+91 96272 32000",
   whatsapp: "919627232000",
   email: "hello@anandamrestaurant.in",
   phones: [
-    { number: "+91 96272 32000", label: "Main" },
+    { number: "+91 96272 32000", label: "Main"         },
     { number: "+91 77408 20582", label: "Reservations" },
-    { number: "+91 98371 81066", label: "Orders" },
+    { number: "+91 98371 81066", label: "Orders"       },
   ],
   address: {
     line1: "BK Complex, Near Digitizehawk",
@@ -52,7 +52,6 @@ export const restaurantInfo = {
     state: "Uttar Pradesh",
     pin: "244 921",
   },
-  // Coordinates: 28°53'39.9"N 79°15'28.2"E
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d447.3!2d79.25783!3d28.89442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDUzJzM5LjkiTiA3OcKwMTUnMjguMiJF!5e0!3m2!1sen!2sin!4v1700000000000",
   hours: [
@@ -62,7 +61,7 @@ export const restaurantInfo = {
   ],
   social: {
     instagram: "https://instagram.com/anandamrestaurant",
-    facebook: "https://facebook.com/anandamrestaurant",
+    facebook:  "https://facebook.com/anandamrestaurant",
   },
-  estYear: 1987,
+  estYear: 2026,
 };
