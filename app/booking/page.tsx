@@ -4,7 +4,7 @@ import BookingForm from "@/components/BookingForm";
 export const metadata: Metadata = {
   title: "Book a Table",
   description:
-    "Reserve your table at Anandam Sweets & Restaurant, Bilaspur. Quick and easy booking via WhatsApp.",
+    "Reserve your table at Anandam Sweets & Restaurant, Bilaspur. Quick and easy online booking.",
 };
 
 export default function BookingPage() {
@@ -19,7 +19,7 @@ export default function BookingPage() {
           <p className="font-devanagari text-saffron-400 text-2xl mb-2">मेज़ बुक करें</p>
           <h1 className="font-display text-5xl md:text-6xl text-white mb-4">Book a Table</h1>
           <p className="text-amber-200/70 max-w-md mx-auto px-4">
-            Fill in your details and we'll confirm your reservation instantly on WhatsApp.
+            Fill in your details and we'll have your table ready and waiting.
           </p>
         </div>
       </div>
