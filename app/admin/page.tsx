@@ -389,7 +389,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { Booking, BookingStatus } from "@/lib/types";
+import { BookingJSON as Booking, BookingStatus } from "@/lib/types";
 
 const STATUS_COLORS: Record<BookingStatus, string> = {
   pending:   "bg-yellow-500/20 text-yellow-400 border-yellow-500/30",
