@@ -1,6 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
 import clientPromise from "@/lib/mongodb";
-import { Booking } from "@/lib/types";
 
 const DB   = "anandam";
 const COLL = "bookings";
@@ -24,14 +23,15 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 });
     }
 
-    const booking: Booking = {
+    // No _id field — MongoDB assigns ObjectId automatically
+    const booking = {
       name:      name.trim(),
       phone:     phone.trim(),
       date,
       time,
       guests,
       request:   request?.trim() || "",
-      status:    "pending",
+      status:    "pending" as const,
       createdAt: new Date().toISOString(),
     };
 
