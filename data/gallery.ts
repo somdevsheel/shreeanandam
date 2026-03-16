@@ -55,7 +55,7 @@ export const galleryItems: GalleryItem[] = [
   { id: "g16", type: "image", src: "/images/menu/Coffee.jpg",           alt: "Hot Coffee",       category: "food" },
   { id: "g17", type: "image", src: "/images/menu/Veg Cream Burger.jpg", alt: "Veg Cream Burger", category: "food" },
   // { id: "v1", type: "video", src: "/videos/kitchen.mp4",      alt: "Our Kitchen",   category: "ambience" },
-  { id: "v2", type: "video", src: "/videos/Anandam Sweets.mp4", alt: "Anandam Sweets",  category: "ambience"     },
+  { id: "v2", type: "video", src: "/videos/anandam-sweets.mp4", alt: "Anandam Sweets",  category: "ambience"     },
 
   // ── Add your video files below ──
   // Place .mp4 files in: public/videos/
