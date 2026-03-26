@@ -292,7 +292,7 @@ export default function GalleryGrid() {
         {/* Video count badge */}
         {galleryItems.some(i => i.type === "video") && (
           <p className="text-center text-amber-200/30 text-xs mt-6">
-            🎥 Videos play automatically without sound
+          
           </p>
         )}
       </div>

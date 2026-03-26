@@ -76,6 +76,9 @@ export interface GalleryItem {
 }
 
 export const galleryItems: GalleryItem[] = [
+  // ── Videos ──
+  { id: "v1", type: "video", src: "/videos/anandam-sweets.mp4", alt: "Anandam Sweets & Restaurant", category: "ambience" },
+  // ── Images ──
   { id: "g1",  type: "image", src: "/images/menu/steamed momos.jpg",    alt: "Steamed Momos",    category: "food" },
   { id: "g2",  type: "image", src: "/images/menu/fried momos.jpg",      alt: "Fried Momos",      category: "food" },
   { id: "g3",  type: "image", src: "/images/menu/chilli momos.jpg",     alt: "Chilli Momos",     category: "food" },
@@ -93,7 +96,4 @@ export const galleryItems: GalleryItem[] = [
   { id: "g15", type: "image", src: "/images/menu/Chai.jpg",             alt: "Masala Chai",      category: "food" },
   { id: "g16", type: "image", src: "/images/menu/Coffee.jpg",           alt: "Hot Coffee",       category: "food" },
   { id: "g17", type: "image", src: "/images/menu/Veg Cream Burger.jpg", alt: "Veg Cream Burger", category: "food" },
-
-  // ── Videos ──
-  { id: "v1", type: "video", src: "/videos/anandam-sweets.mp4", alt: "Anandam Sweets & Restaurant", category: "ambience" },
 ];
