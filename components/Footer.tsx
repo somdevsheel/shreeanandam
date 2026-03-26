@@ -556,7 +556,7 @@ export default function Footer() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Anandam Sweets & Restaurant Location"
+          title="Shree Anandam Sweets & Restaurant Location"
         />
         {/* Get Directions overlay button */}
         <a

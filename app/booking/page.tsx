@@ -4,7 +4,7 @@ import BookingForm from "@/components/BookingForm";
 export const metadata: Metadata = {
   title: "Book a Table",
   description:
-    "Reserve your table at Anandam Sweets & Restaurant, Bilaspur. Quick and easy online booking.",
+    "Reserve your table at Shree Anandam Sweets & Restaurant, Bilaspur. Quick and easy online booking.",
 };
 
 export default function BookingPage() {

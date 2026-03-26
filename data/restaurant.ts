@@ -1,5 +1,5 @@
 export const restaurantInfo = {
-  name: "Anandam Sweets & Restaurant",
+  name: "Shree Anandam Sweets & Restaurant",
   nameDevanagari: "आनन्दम् स्वीट्स & रेस्टोरेंट",
   tagline: "Fresh Food, Pure Joy",
   taglineHindi: "ताज़ा खाना, शुद्ध आनंद",

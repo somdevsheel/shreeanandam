@@ -542,7 +542,7 @@ export default function AdminPage() {
               <span className="text-3xl">🍽️</span>
             </div>
             <h1 className="font-display text-3xl text-saffron-300">Admin Panel</h1>
-            <p className="text-amber-200/40 text-sm mt-1">Anandam Sweets & Restaurant</p>
+            <p className="text-amber-200/40 text-sm mt-1">Shree Anandam Sweets & Restaurant</p>
           </div>
 
           <form onSubmit={handleLogin}
@@ -782,7 +782,7 @@ export default function AdminPage() {
         )}
 
         <p className="text-center text-amber-200/15 text-xs mt-10">
-          Anandam Sweets & Restaurant — Admin Panel v1.0
+          Shree Anandam Sweets & Restaurant — Admin Panel v1.0
         </p>
       </div>
     </div>

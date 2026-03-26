@@ -77,7 +77,7 @@ export interface GalleryItem {
 
 export const galleryItems: GalleryItem[] = [
   // ── Videos ──
-  { id: "v1", type: "video", src: "/videos/anandam-sweets.mp4", alt: "Anandam Sweets & Restaurant", category: "ambience" },
+  { id: "v1", type: "video", src: "/videos/anandam-sweets.mp4", alt: "Shree Anandam Sweets & Restaurant", category: "ambience" },
   // ── Images ──
   { id: "g1",  type: "image", src: "/images/menu/steamed momos.jpg",    alt: "Steamed Momos",    category: "food" },
   { id: "g2",  type: "image", src: "/images/menu/fried momos.jpg",      alt: "Fried Momos",      category: "food" },
