@@ -92,10 +92,10 @@ export default function HomePage() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Link>
-            <Link href="/booking"
+            {/* <Link href="/booking"
               className="inline-flex items-center justify-center gap-2 border-2 border-saffron-500 text-saffron-400 hover:bg-saffron-500 hover:text-white font-medium px-8 py-3 rounded-full transition-all duration-200 active:scale-95">
               🍽️ Book a Table
-            </Link>
+            </Link> */}
           </div>
         </div>
       </section>

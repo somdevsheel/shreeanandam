@@ -96,10 +96,10 @@ export default function HeroSection() {
             Get Directions
           </a>
 
-          <Link href="/booking"
+          {/* <Link href="/booking"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-green-400 text-green-300 hover:bg-green-500 hover:border-green-500 hover:text-white font-medium text-base px-8 py-4 rounded-full transition-all duration-200 active:scale-95">
             🍽️ Book a Table
-          </Link>
+          </Link> */}
         </div>
 
         {/* Scroll cue */}
