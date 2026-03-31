@@ -41,10 +41,10 @@ export const metadata: Metadata = {
     title: `${restaurantInfo.name} – ${restaurantInfo.tagline}`,
     description: restaurantInfo.description,
   },
-  icons: {
-    icon: "/favicon.ico",
-    apple: "/apple-touch-icon.png",
-  },
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   apple: "/apple-touch-icon.png",
+  // },
 };
 
 export default function RootLayout({
