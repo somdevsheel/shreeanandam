@@ -4,7 +4,7 @@ import GalleryGrid from "@/components/GalleryGrid";
 export const metadata: Metadata = {
   title: "Gallery",
   description:
-    "A visual feast from Shree Anandam's kitchen — browse our food photography and restaurant ambience gallery.",
+    "A visual feast from Shri Anandam's kitchen — browse our food photography and restaurant ambience gallery.",
 };
 
 export default function GalleryPage() {

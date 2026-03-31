@@ -40,7 +40,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="relative w-10 h-10 md:w-12 md:h-12 flex-shrink-0">
-            <Image src="/logo.png" alt="Shree Anandam Logo" fill className="object-contain" priority />
+            <Image src="/logo.png" alt="Shri Anandam Logo" fill className="object-contain" priority />
           </div>
           <div className="leading-tight">
             <p className="font-display font-bold text-lg md:text-xl leading-none text-amber-100">

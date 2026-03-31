@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   },
   description: `${restaurantInfo.name} is a traditional pure-vegetarian Indian restaurant in ${restaurantInfo.address.city}. ${restaurantInfo.description}`,
   keywords: [
-    "Shree Anandam",
+    "Shri Anandam",
     "vegetarian restaurant Chennai",
     "Indian restaurant Chennai",
     "traditional Indian food",
@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://shreeanandam.in",
+    url: "https://Shrianandam.in",
     siteName: restaurantInfo.name,
     title: `${restaurantInfo.name} – ${restaurantInfo.tagline}`,
     description: restaurantInfo.description,

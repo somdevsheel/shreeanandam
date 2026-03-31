@@ -4,7 +4,7 @@ import MenuSection from "@/components/MenuSection";
 export const metadata: Metadata = {
   title: "Menu",
   description:
-    "Explore the full menu at Shree Anandam — from crispy starters and rich main courses to fresh breads, traditional desserts, and refreshing beverages. All 100% vegetarian.",
+    "Explore the full menu at Shri Anandam — from crispy starters and rich main courses to fresh breads, traditional desserts, and refreshing beverages. All 100% vegetarian.",
 };
 
 export default function MenuPage() {

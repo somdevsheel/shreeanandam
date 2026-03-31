@@ -4,7 +4,7 @@ import { restaurantInfo } from "@/data/restaurant";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Shree Anandam Sweets & Restaurant is a brand new pure vegetarian restaurant in Bilaspur, Uttar Pradesh — serving fresh momos, burgers, Chinese, and traditional Indian bites.",
+    "Shri Anandam Sweets & Restaurant is a brand new pure vegetarian restaurant in Bilaspur, Uttar Pradesh — serving fresh momos, burgers, Chinese, and traditional Indian bites.",
 };
 
 export default function AboutPage() {
@@ -42,7 +42,7 @@ export default function AboutPage() {
           {/* Story */}
           <div className="space-y-6 text-amber-200/75 text-lg leading-relaxed">
             <p>
-              Welcome to <span className="text-saffron-400 font-semibold">Shree Anandam Sweets & Restaurant</span> —
+              Welcome to <span className="text-saffron-400 font-semibold">Shri Anandam Sweets & Restaurant</span> —
               a fresh, new pure vegetarian dining destination right here in Bilaspur, Uttar Pradesh.
               We are a brand new establishment, built from the ground up with one simple goal:
               to serve honest, delicious, freshly made food at prices everyone can afford.

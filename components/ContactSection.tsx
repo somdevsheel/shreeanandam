@@ -103,7 +103,7 @@ export default function ContactSection() {
               style={{ border: 0, minHeight: 420, filter: "invert(90%) hue-rotate(180deg)" }}
               allowFullScreen loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Shree Anandam Sweets & Restaurant Location"
+              title="Shri Anandam Sweets & Restaurant Location"
             />
           </div>
         </div>

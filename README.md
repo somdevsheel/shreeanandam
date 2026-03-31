@@ -1,4 +1,4 @@
-# 🍛 Shree Anandam — Restaurant Website
+# 🍛 Shri Anandam — Restaurant Website
 
 A complete, production-ready restaurant website built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
@@ -7,7 +7,7 @@ A complete, production-ready restaurant website built with **Next.js 14**, **Typ
 ## 📁 Project Structure
 
 ```
-shree-anandam/
+Shri-anandam/
 ├── app/                      # Next.js App Router pages
 │   ├── layout.tsx            # Root layout (Navbar + Footer + SEO metadata)
 │   ├── page.tsx              # Home page
@@ -171,11 +171,11 @@ vercel
 
 # Follow prompts:
 # - Link to your Vercel account
-# - Set project name: shree-anandam
+# - Set project name: Shri-anandam
 # - Deploy!
 ```
 
-Your site will be live at `https://shree-anandam.vercel.app`
+Your site will be live at `https://Shri-anandam.vercel.app`
 
 ### Option 2: GitHub + Vercel Dashboard
 
@@ -183,8 +183,8 @@ Your site will be live at `https://shree-anandam.vercel.app`
    ```bash
    git init
    git add .
-   git commit -m "Initial commit: Shree Anandam website"
-   git remote add origin https://github.com/YOUR_USERNAME/shree-anandam.git
+   git commit -m "Initial commit: Shri Anandam website"
+   git remote add origin https://github.com/YOUR_USERNAME/Shri-anandam.git
    git push -u origin main
    ```
 
@@ -197,7 +197,7 @@ Your site will be live at `https://shree-anandam.vercel.app`
 
 After deploying on Vercel:
 1. Go to Project Settings → Domains
-2. Add your domain: `shreeanandam.in`
+2. Add your domain: `Shrianandam.in`
 3. Update DNS records as instructed by Vercel
 
 ---
@@ -252,4 +252,4 @@ Update your number in `data/restaurant.ts` → `whatsapp` (country code + number
 
 ---
 
-*Built with ❤️ for Shree Anandam Restaurant*
+*Built with ❤️ for Shri Anandam Restaurant*

@@ -25,7 +25,7 @@
 //             <div className="relative w-12 h-12 flex-shrink-0">
 //               <Image
 //                 src="/logo.png"
-//                 alt="Shree Anandam Logo"
+//                 alt="Shri Anandam Logo"
 //                 fill
 //                 className="object-contain brightness-90"
 //               />
@@ -556,7 +556,7 @@ export default function Footer() {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="Shree Anandam Sweets & Restaurant Location"
+          title="Shri Anandam Sweets & Restaurant Location"
         />
         {/* Get Directions overlay button */}
         <a

@@ -4,7 +4,7 @@ import { restaurantInfo } from "@/data/restaurant";
 
 export const metadata: Metadata = {
   title: "Contact & Directions",
-  description: `Contact Shree Anandam at ${restaurantInfo.phone}. Located at ${restaurantInfo.address.line1}, ${restaurantInfo.address.city}. View our opening hours and get directions.`,
+  description: `Contact Shri Anandam at ${restaurantInfo.phone}. Located at ${restaurantInfo.address.line1}, ${restaurantInfo.address.city}. View our opening hours and get directions.`,
 };
 
 export default function ContactPage() {
@@ -31,7 +31,7 @@ export default function ContactPage() {
 
       {/* Floating WhatsApp on mobile */}
       <a
-        href={`https://wa.me/${restaurantInfo.whatsapp}?text=Hi%2C%20I'd%20like%20to%20enquire%20about%20Shree%20Anandam`}
+        href={`https://wa.me/${restaurantInfo.whatsapp}?text=Hi%2C%20I'd%20like%20to%20enquire%20about%20Shri%20Anandam`}
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-5 z-50 w-14 h-14 bg-[#25D366] rounded-full flex items-center justify-center shadow-lg whatsapp-btn md:hidden"
