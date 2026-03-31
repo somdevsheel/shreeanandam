@@ -197,7 +197,7 @@ Your site will be live at `https://Shri-anandam.vercel.app`
 
 After deploying on Vercel:
 1. Go to Project Settings → Domains
-2. Add your domain: `Shrianandam.in`
+2. Add your domain: `https://www.shrianandamsweets.in'
 3. Update DNS records as instructed by Vercel
 
 ---

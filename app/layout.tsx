@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_IN",
-    url: "https://Shrianandam.in",
+    url: "https://www.shrianandamsweets.in",
     siteName: restaurantInfo.name,
     title: `${restaurantInfo.name} – ${restaurantInfo.tagline}`,
     description: restaurantInfo.description,
