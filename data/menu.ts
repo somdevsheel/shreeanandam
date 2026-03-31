@@ -137,7 +137,7 @@ export const menuData: MenuCategory[] = [
         // priceHalf: 40,
         price: 120,
         veg: true,
-        image: "/images/menu/Spring Roll.jpg",
+        image: "/images/menu/Kurkure Spring Roll.jpg",
       },
     ],
   },
