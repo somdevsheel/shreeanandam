@@ -7,7 +7,7 @@ export const restaurantInfo = {
     "A brand new pure vegetarian restaurant in Bilaspur, UP — serving fresh momos, burgers, Chinese, and traditional Indian bites with love and quality.",
   phone: "+91 96272 32000",
   whatsapp: "919627232000",
-  email: "hello@anandamrestaurant.in",
+  email: "hello@shrianandamsweets.in",
   phones: [
     { number: "+91 96272 32000", label: "Main"         },
     { number: "+91 77408 20582", label: "Reservations" },
