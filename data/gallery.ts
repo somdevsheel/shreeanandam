@@ -96,4 +96,6 @@ export const galleryItems: GalleryItem[] = [
   { id: "g15", type: "image", src: "/images/menu/Chai.jpg",             alt: "Masala Chai",      category: "food" },
   { id: "g16", type: "image", src: "/images/menu/Coffee.jpg",           alt: "Hot Coffee",       category: "food" },
   { id: "g17", type: "image", src: "/images/menu/Veg Cream Burger.jpg", alt: "Veg Cream Burger", category: "food" },
+  { id: "g18", type: "image", src: "/images/menu/Paneer Bread Pakora.jpg",           alt: "Paneer Bread Pakora",       category: "food" },
+  { id: "g19", type: "image", src: "/images/menu/Tandoori Cheese Burger.jpg", alt: "Tandoori Cheese Burger", category: "food" },
 ];
