@@ -86,7 +86,7 @@ export default function HeroSection() {
             Call Now
           </a>
 
-          <a href="https://www.google.com/maps/dir/?api=1&destination=Shri+Anandam+Sweets+%26+Restaurant&destination_place_id=ChIJpXHP0wCFCjkRRsQlLtRT0LY"
+          <a href="https://www.google.com/maps/dir//Shri+Anandam+Sweets+%26+Restaurant,+bk+complex,+Bilaspur,+Harraiya+Khurd,+Uttar+Pradesh+244921/@28.9875074,79.4141207,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390a85003bcf71a5:0xb63e53d42f25c4f6!2m2!1d79.2577915!2d28.8942795?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D"
             target="_blank" rel="noopener noreferrer"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm border-2 border-saffron-400 text-saffron-300 hover:bg-saffron-500 hover:border-saffron-500 hover:text-white font-medium text-base px-8 py-4 rounded-full transition-all duration-200 active:scale-95">
             <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>

@@ -147,7 +147,7 @@ export default function AboutPage() {
               className="btn-primary justify-center">
               📞 Call Us Now
             </a>
-            <a href="https://maps.google.com/?q=28.894417,79.257833"
+            <a href="https://shorturl.at/IdVXN"
               target="_blank" rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 border-2 border-saffron-500 text-saffron-400 hover:bg-saffron-500 hover:text-white font-medium px-8 py-3.5 rounded-full transition-all duration-200">
               🗺️ Get Directions

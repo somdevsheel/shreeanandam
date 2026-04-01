@@ -1,46 +1,3 @@
-// export const restaurantInfo = {
-//   name: "Shri Anandam Sweets & Restaurant",
-//   nameDevanagari: "श्री आनन्दम् स्वीट्स & रेस्टोरेंट",
-//   tagline: "Fresh Food, Pure Joy",
-//   taglineHindi: "ताज़ा खाना, शुद्ध आनंद",
-//   description:
-//     "A brand new pure vegetarian restaurant in Bilaspur, UP — serving fresh momos, burgers, Chinese, and traditional Indian bites with love and quality.",
-//   phone: "+91 96272 32000",
-//   whatsapp: "919627232000",
-//   email: "hello@shrianandamsweets.in",
-//   website: "https://www.shrianandamsweets.in",
-//   phones: [
-//     { number: "+91 96272 32000", label: "Main"         },
-//     { number: "+91 77408 20582", label: "Reservations" },
-//     { number: "+91 98371 81066", label: "Orders"       },
-//   ],
-//   address: {
-//     line1: "BK Complex, Near Digitizehawk",
-//     line2: "Harraiya Khurd, Bilaspur",
-//     city:  "Bilaspur",
-//     state: "Uttar Pradesh",
-//     pin:   "244 921",
-//   },
-//   // Exact coordinates: 28.8942795, 79.2577915
-//   // Place ID: 0x390a85003bcf71a5:0xb63e53d42f25c4f6
-//   mapEmbedUrl:
-//     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.234!2d79.2577915!3d28.8942795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a85003bcf71a5%3A0xb63e53d42f25c4f6!2sShri%20Anandam%20Sweets%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000",
-//   googleMapsUrl:
-//     "https://maps.google.com/?q=Shri+Anandam+Sweets+%26+Restaurant,+BK+Complex,+Bilaspur,+Harraiya+Khurd,+UP+244921&ll=28.8942795,79.2577915",
-//   hours: [
-//     { days: "Monday – Friday",  time: "11:00 AM – 3:30 PM, 7:00 PM – 11:00 PM" },
-//     { days: "Saturday – Sunday", time: "11:00 AM – 4:00 PM, 6:30 PM – 11:30 PM" },
-//     { days: "Public Holidays",  time: "11:00 AM – 11:30 PM (Full Day)"          },
-//   ],
-//   social: {
-//     instagram: "https://www.instagram.com/shrianandamsweets",
-//     facebook:  "https://www.facebook.com/shrianandamsweets",
-//   },
-//   estYear: 2026,
-// };
-
-
-
 export const restaurantInfo = {
   name: "Shri Anandam Sweets & Restaurant",
   nameDevanagari: "श्री आनन्दम् स्वीट्स & रेस्टोरेंट",
@@ -64,17 +21,13 @@ export const restaurantInfo = {
     state: "Uttar Pradesh",
     pin:   "244 921",
   },
-  // Verified Google Maps listing — Place ID: 0x390a85003bcf71a5:0xb63e53d42f25c4f6
+  // Official embed from verified Google Maps listing
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.234!2d79.2577915!3d28.8942795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a85003bcf71a5%3A0xb63e53d42f25c4f6!2sShri%20Anandam%20Sweets%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d509.4490732785361!2d79.25779876579955!3d28.89411591580018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a85003bcf71a5%3A0xb63e53d42f25c4f6!2sShri%20Anandam%20Sweets%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1775044732209!5m2!1sen!2sin",
 
-  // Direct link to verified Google Maps listing — opens "Shri Anandam Sweets & Restaurant" by name
-  googleMapsUrl:
-    "https://www.google.com/maps/place/?q=place_id:ChIJpXHP0wCFCjkRRsQlLtRT0LY",
-
-  // Directions link — navigates to the verified listing
+  // Directions to verified listing by name
   googleMapsDirectionsUrl:
-    "https://www.google.com/maps/dir/?api=1&destination=Shri+Anandam+Sweets+%26+Restaurant&destination_place_id=ChIJpXHP0wCFCjkRRsQlLtRT0LY",
+    "https://www.google.com/maps/dir//Shri+Anandam+Sweets+%26+Restaurant,+bk+complex,+Bilaspur,+Harraiya+Khurd,+Uttar+Pradesh+244921/@28.9875074,79.4141207,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390a85003bcf71a5:0xb63e53d42f25c4f6!2m2!1d79.2577915!2d28.8942795?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D",
 
   hours: [
     { days: "Every Day", time: "10:00 AM – 11:30 PM" },

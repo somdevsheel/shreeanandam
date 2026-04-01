@@ -32,7 +32,7 @@ export default function Footer() {
         />
         {/* Get Directions overlay button */}
         <a
-          href="https://maps.google.com/?q=28.894417,79.257833"
+          href="https://www.google.com/maps/dir//Shri+Anandam+Sweets+%26+Restaurant,+bk+complex,+Bilaspur,+Harraiya+Khurd,+Uttar+Pradesh+244921/@28.9875074,79.4141207,15z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390a85003bcf71a5:0xb63e53d42f25c4f6!2m2!1d79.2577915!2d28.8942795?entry=ttu&g_ep=EgoyMDI2MDMyOS4wIKXMDSoASAFQAw%3D%3D"
           target="_blank"
           rel="noopener noreferrer"
           className="absolute bottom-4 right-4 flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-full shadow-lg transition-all active:scale-95"
