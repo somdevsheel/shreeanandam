@@ -28,8 +28,8 @@ export const restaurantInfo = {
     { days: "Public Holidays", time: "11:00 AM – 11:30 PM (Full Day)" },
   ],
   social: {
-    instagram: "https://instagram.com/anandamrestaurant",
-    facebook:  "https://facebook.com/anandamrestaurant",
+    instagram: "https://www.instagram.com/shrianandamsweets",
+    facebook:  "https://www.facebook.com/shrianandamsweets",
   },
   estYear: 2026,
 };
