@@ -41,7 +41,6 @@
 
 
 
-
 export const restaurantInfo = {
   name: "Shri Anandam Sweets & Restaurant",
   nameDevanagari: "श्री आनन्दम् स्वीट्स & रेस्टोरेंट",
@@ -65,11 +64,16 @@ export const restaurantInfo = {
     state: "Uttar Pradesh",
     pin:   "244 921",
   },
+  // Verified Google Maps listing — Place ID: 0x390a85003bcf71a5:0xb63e53d42f25c4f6
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.234!2d79.2577915!3d28.8942795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a85003bcf71a5%3A0xb63e53d42f25c4f6!2sShri%20Anandam%20Sweets%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000",
 
-  // Opens exact restaurant name + directions in Google Maps using Place ID
+  // Direct link to verified Google Maps listing — opens "Shri Anandam Sweets & Restaurant" by name
   googleMapsUrl:
+    "https://www.google.com/maps/place/?q=place_id:ChIJpXHP0wCFCjkRRsQlLtRT0LY",
+
+  // Directions link — navigates to the verified listing
+  googleMapsDirectionsUrl:
     "https://www.google.com/maps/dir/?api=1&destination=Shri+Anandam+Sweets+%26+Restaurant&destination_place_id=ChIJpXHP0wCFCjkRRsQlLtRT0LY",
 
   hours: [
