@@ -67,8 +67,11 @@ export const restaurantInfo = {
   },
   mapEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.234!2d79.2577915!3d28.8942795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390a85003bcf71a5%3A0xb63e53d42f25c4f6!2sShri%20Anandam%20Sweets%20%26%20Restaurant!5e0!3m2!1sen!2sin!4v1700000000000",
+
+  // Opens exact restaurant name + directions in Google Maps using Place ID
   googleMapsUrl:
-    "https://maps.google.com/?q=Shri+Anandam+Sweets+%26+Restaurant,+BK+Complex,+Bilaspur,+Harraiya+Khurd,+UP+244921&ll=28.8942795,79.2577915",
+    "https://www.google.com/maps/dir/?api=1&destination=Shri+Anandam+Sweets+%26+Restaurant&destination_place_id=ChIJpXHP0wCFCjkRRsQlLtRT0LY",
+
   hours: [
     { days: "Every Day", time: "10:00 AM – 11:30 PM" },
   ],
